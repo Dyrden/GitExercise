@@ -15,7 +15,9 @@ public class Main {
 
     public void ggdfegdfreet() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("indtast navn : ");
+        System.out.print("indtast n  avn : ");
+
+
         String navn = sc.nextLine();
         System.out.println("hej " + navn);
     }
