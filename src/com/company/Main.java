@@ -31,4 +31,8 @@ public class Main {
     public void method2() {
         System.out.println("hahaHA");
     }
+
+    public void method3() {
+        System.out.println("hahaHAHAHAHAHAHA");
+    }
 }
