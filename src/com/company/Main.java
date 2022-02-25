@@ -8,7 +8,8 @@ public class Main {
 
         System.out.println("it works!");
         Main main = new Main();
-        main.greet();
+        //main.greet();
+        main.askAboutAge();
 
     }
 
@@ -17,5 +18,11 @@ public class Main {
         System.out.print("indtast navn : ");
         String navn = sc.nextLine();
         System.out.println("hej " + navn);
+    }
+
+    public void askAboutAge() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("indtast din alder: ");
+        System.out.println("din alder er " + sc.nextLine());
     }
 }
