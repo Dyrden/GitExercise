@@ -13,21 +13,16 @@ public class Main {
 
     }
 
-    public void ggdfegdfreet() {
+    public void greet() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("indtast n  avn : ");
-
-
+        System.out.print("indtast navn : ");
         String navn = sc.nextLine();
         System.out.println("hej " + navn);
     }
 
-    public void askutAgeage() {
-
-        System.out.println("tast din alder: ");
+    public void askAboutAge() {
         Scanner sc = new Scanner(System.in);
-
-
-        System.out.println("din alderer " + sc.nextLine());
+        System.out.print("indtast din alder: ");
+        System.out.println("din alder er " + sc.nextLine());
     }
 }
