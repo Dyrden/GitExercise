@@ -25,4 +25,7 @@ public class Main {
         System.out.print("indtast din alder: ");
         System.out.println("din alder er " + sc.nextLine());
     }
+    public void method1() {
+        System.out.println("haha");
+    }
 }
