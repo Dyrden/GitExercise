@@ -28,4 +28,7 @@ public class Main {
     public void method1() {
         System.out.println("haha");
     }
+    public void method2() {
+        System.out.println("hahaHA");
+    }
 }
