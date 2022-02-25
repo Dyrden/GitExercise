@@ -22,7 +22,7 @@ public class Main {
         System.out.println("hej " + navn);
     }
 
-    public void askAutAgeage() {
+    public void askutAgeage() {
 
         System.out.println("tast din alder: ");
         Scanner sc = new Scanner(System.in);
