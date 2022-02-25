@@ -17,7 +17,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("indtast navn : ");
         String navn = sc.nextLine();
-        System.out.println("hej " + navn);
+        System.out.println(" " + navn);
     }
 
     public void askAboutAge() {
